@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>JS and Chill!</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        #myDiv {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            margin: 20px
+        }
+
+        .myParagraph {
+            background-color: cornflowerblue;
+            margin: 30 px;
+            color: blue;
+            font-style: italic;
+            font-size: 20;
+        }
+
+        #mycanvas {
+            /* width: 80%;
+            height: 400px; */
+            background-color: lawngreen;
+            margin: 0px;
+            /* both of the following work! HUH */
+            background-image: url(assets/football_field.jpg);
+            /* background-image: url("./assets/football_field.jpg"); */
+            /* align-self: center; */
+            border: 20px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div id="myDiv"></div> -->
+    <!-- <div> Well, Hello there!</div>
+
+    <p class="myParagraph"> What a lovely weather!</p>
+    <p class="myParagraph"> Let's play football instead of working on this crap website.</p> -->
+    <canvas id="mycanvas" width="1000px" height="600px"> </canvas>
+
+
+    <!-- this has to be at the bottom, if you put this before canvas element, it won't be able to search for it and then, canvas will return as null-->
+    <!-- <script src="snake.js"></script> -->
+    <script src="revised_snake.js"></script>
+
+</body>
+
+</html>
